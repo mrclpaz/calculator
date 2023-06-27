@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    text-align: center;
+}
+
+div input[type=number] {
+    margin: 8px 0;
+    padding: 8px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+div input[type=number]:read-only {
+    border: 1px solid #000;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+div button {
+    padding: 8px 0;
+    width: 64px;
+    border: 1px solid #999;
+    background-color: #f7f7f7;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: #ccc;
+}
+
+div button:focus {
+    outline: 2px solid #333;
+}
+
